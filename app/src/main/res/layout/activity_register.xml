@@ -26,20 +26,6 @@
         android:layout_marginBottom="16dp"
         android:hint="Masukkan Nama"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Password"
-        android:textSize="16dp"
-        android:textStyle="bold"/>
-
-    <EditText
-        android:id="@+id/et_password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="16dp"
-        android:layout_marginBottom="16dp"
-        android:hint="Masukkan Password"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -72,11 +58,13 @@
         android:hint="Masukkan No.Telepon"/>
 
     <Button
-        android:layout_width="wrap_content"
+        android:id="@+id/bt_register"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:text="Register"
-        android:textSize="16dp"/>
+        android:textSize="16dp"
+        android:layout_marginTop="16dp"/>
 
 
 
